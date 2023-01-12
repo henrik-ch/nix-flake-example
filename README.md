@@ -60,6 +60,8 @@ install the tools provided in the environment. Once that's finished, you should
 be greeted by a welcome message and then enter a [Bash] shell with a `bash-5.1$`
 prompt.
 
+To exit the nix shell you can either type exit or press ctrl-d.
+
 This dev environment provides several tools:
 
 - [Node.js]

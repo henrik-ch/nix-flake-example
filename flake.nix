@@ -57,9 +57,9 @@
           # reproducible (as anyone else using this environment uses the same
           # Git revision).
           buildInputs = with pkgs; [
-            python310 # Python 3.10
-            go_1_19 # Go 1.19
-            nodejs-18_x # Node.js 18
+            python310 # Python - as per included flake.lock 3.10.9
+            go_1_19 # Go 1.19 - as per included flake.lock go1.19.4
+            nodejs-18_x # Node.js 18 - as per included flake.lock v18.12.1
             terraform
           ];
 
